@@ -19,7 +19,7 @@ package 단축키;
 // 잘라내기		:	ctrl + X
 // 뒤로가기		:	ctrl + Z
 // 앞으로 가기		:	ctrl + Y
-// 전체 화면		:	ctrl + M
+// 전체 화면		:	ctrl + M 123
 public class Key {
 
 }
