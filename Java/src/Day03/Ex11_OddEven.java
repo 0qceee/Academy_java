@@ -21,12 +21,12 @@ public class Ex11_OddEven {
 		while (a <= 20) {
 			//홀수
 			if(a % 2 == 1);
-				sum1 = sum1 + a;
-				a++;
+				sum1 = sum1 + a++;	// 합계를 이렇게 쓰거나
+				
 			//짝수
 			if(a % 2 == 0);
 				sum2 = sum2 + a;
-				a++;
+				a++; // 이런 식으로 합계를 쓰거나
 		}
 		 System.out.println("홀수의 합계" + + sum1);
 		 System.out.println("홀수의 합계" + + sum2);
