@@ -1,4 +1,4 @@
-package Day07.Singleton;
+package Day07.Singleton.Singleton;
 
 /**
  * 싱글톤 패턴

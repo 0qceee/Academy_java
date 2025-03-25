@@ -1,4 +1,4 @@
-package Day07.Singleton;
+package Day07.Singleton.Singleton;
 
 public class SigletonTest {
 
