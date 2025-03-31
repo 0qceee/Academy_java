@@ -16,7 +16,7 @@ public class Ex04_Lotto {
 	
 	// (int) (Math.random() * 6)		: 0~5
 	// (int) (Math.random() * 6) + 1	: 1~6
-	int dice = (int) (Math.random());
+	int dice = (int) (Math.random() * 6 + 1);
 	System.out.println("주사위 : " + dice);
 	
 	// (공식) : (int) (Math.random() * [개수]) + [시작숫자]
@@ -33,8 +33,8 @@ public class Ex04_Lotto {
 	// (과제) 오름차순 정렬
 	for (int i = 0; i < lotto.length; i++) {
 		lotto[i] = (int) (Math.random()* 45) + 1;
+		// 중복
 		for (int j = i-1; j >= 0; j--) {
-			// 중복
 			if ( lotto[i] == lotto[j] ) {
 				i--;
 				break;
