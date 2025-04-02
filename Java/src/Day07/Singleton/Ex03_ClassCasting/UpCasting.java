@@ -22,7 +22,6 @@ public class UpCasting {
 		// 메소드는 자식 클래스의 메소드가 우선하여 실행된다.
 		System.out.println(person);
 		System.out.println(person.work() );
-		
 		// 이유 : 변수는 정적 바인딩, 메소드는 동적 바인딩
 		// *바인딩 (Binding)
 		// : 프로그램에서 사용되는 요소에 실제 값을 결정짓는 행위

@@ -19,6 +19,10 @@ public class Person {
 	public String work() {
 		return "일을 합니다";
 	}
+	
+	public String did() {
+		return "나는Person";
+	}
 
 	// getter, setter
 	public String getName() {
