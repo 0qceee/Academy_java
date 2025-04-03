@@ -1,4 +1,4 @@
-package ClassRoom.Ex10;
+package ClassRoom;
 
 import java.util.*;
 
@@ -29,7 +29,7 @@ public class Ex12 {
             Collections.sort(lottoList);
 
             // 출력
-            System.out.print("[" + i + " 게임] : ");
+            System.out .print("[" + i + " 게임] : ");
             for (int num : lottoList) {
                 System.out.print(num + " ");
             }
