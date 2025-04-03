@@ -17,18 +17,16 @@ public class Ex06 {
 		for (int i = 1; i <= N; i++) {
 			System.out.print("[" + i + " 게임] : " );
 			
-			// 6개 숫자 뽑기 
+			// 중복 제거
 			for (int j = 0; j < arr1.length; j++) {
-				arr1[j] = (random.nextInt(45) + 1);
-			}
-			
-			// 중복 제거 
-			for (int j = 1; j < arr1.length; j++) {
-				for (int j2 = 0; j2 < arr1.length; j2++) {
-					if (arr1[j] == arr1[j2]) {
-						arr1[j] = random.nextInt(45) + 1;
-					}
-				}
+			    arr1[j] = random.nextInt(45) + 1;
+
+			    for (int k = 0; k < j; k++) {
+			        if (arr1[j] == arr1[k]) {
+			            j--; // 중복이면 다시 뽑기
+			            break;
+			        }
+			    }
 			}
 			
 			// 오름차순 정리 
@@ -60,6 +58,6 @@ public class Ex06 {
 		
 		
 		
-
+		sc.close();
 	}
 }
