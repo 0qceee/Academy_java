@@ -1,4 +1,4 @@
-package JavaTest.Ex03;
+package ClassRoom.Ex14;
 
 import java.io.*;
 import java.util.*;
@@ -50,11 +50,11 @@ public class Main {
                 return s1.no - s2.no;
         });
 
-        // 출력
-        System.out.printf("%-4s %-6s %-4s %-6s", "번호", "이름", "성적", "반");
+        // 출력 printf("%-4s,%-6s") = 각각 4칸,6칸을 확보함.
+        System.out.println("번호\t이름\t성적\t반");
         System.out.println();
         for (Student s : students) {
-            System.out.printf("%-4d %-6s %-4d %-6s", s.no, s.name, s.score, s.group);
+            System.out.println(s.no + "\t" + s.name + "\t" + s.score + "\t" + s.group);
             System.out.println();
         }
     }
