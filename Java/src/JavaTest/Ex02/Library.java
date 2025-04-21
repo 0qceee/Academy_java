@@ -15,10 +15,12 @@ public class Library {
         books.add(b2);
         books.add(b3);
 
+        
         // 출력
         System.out.println("########### 조은 스터디 도서관 ###########");
         for (Book book : books) {
-            System.out.println(book);
+        	System.out.printf("%-10s | %-12s | %-8s | %-14s | %,6d원%n",
+        	        book.getIsbn(), book.getTitle(), book.getWriter(), book.getContent(), book.getPrice());
         }
     }
 }
