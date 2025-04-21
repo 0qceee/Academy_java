@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.AController">
+   <children>
+      <Button fx:id="button" layoutX="274.0" layoutY="189.0" mnemonicParsing="false" onAction="#toB" text="Button" />
+      <Label layoutX="286.0" layoutY="82.0" text="Label" />
+      <TextField fx:id="input" layoutX="206.0" layoutY="124.0" promptText="데이터입력" />
+   </children>
+</AnchorPane>
